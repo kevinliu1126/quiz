@@ -5,8 +5,8 @@ function myFunction() {
     btn.addEventListener("click",change);
 }
 function change() {
-    var header = document.getElementById("H1");
+    var header = $('H1')[0];
     header.innerHTML = "CSIE@CGU";
-    var para = document.getElementById("P");
+    var para = $('P')[0];
     para.innerHTML = "怎麼那麼棒！！.";
 }
