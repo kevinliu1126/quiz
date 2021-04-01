@@ -8,5 +8,6 @@ data.done(function (msg) {
     });
 });
 data.fail( function( msg ) {
-// just do it!
+    console.log(msg);
+    $("#contain").html("fail getting data");
 });
